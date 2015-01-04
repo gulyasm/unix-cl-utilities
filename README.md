@@ -17,3 +17,20 @@
 
 * [jq](http://stedolan.github.io/jq/) JSON processing. Filter, query and pretty print json. 
 
+## Performance tools
+* [vmstat]()
+* [pidstat]()
+* [sar]()
+* [ss]()
+* [sysdig]()
+* [netstat]()
+* [perf]()
+* [ftrace]()
+* [iostat]()
+* [iotop]()
+* [lsof]()
+* [top]()
+* [htop]()
+* [tcpdump]()
+* [ethtool]()
+* [iftop]()
