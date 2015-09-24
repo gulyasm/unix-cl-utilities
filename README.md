@@ -1,4 +1,6 @@
 # Unix command line utilites resource
+
+[Commands are here.](https://github.com/gulyasm/unix-cl-utilities/blob/master/commands.md)
 ## Navigation
 *File and command line navigation*
 
