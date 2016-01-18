@@ -8,3 +8,11 @@
 - Recursively install and download dependencies for offline use every maven project. 
     `find . -iname 'pom.xml' -execdir mvn install dependency:go-offline -f {} \;`
 
+- Create temporary file
+    `mktemp`
+
+- Create temporary folder
+    `mktemp -d`
+
+- Changing every space to underscore recursively in file names
+    `find $1 -depth -name "* *" -execdir rename 's/ /_/g' "{}" \;`

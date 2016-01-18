@@ -1,0 +1,24 @@
+# Utilities you should know
+    - find
+    - locate
+    - grep
+    - top
+    - htop
+    - mktemp
+    - mkdir 
+    - fuser
+    - sed
+    - df
+    - du
+    - pgrep
+    - ps
+    - netstat
+    - lsof
+    - tcpdump
+    - fg 
+    - tailf
+    - dig 
+    - xargs 
+    - parallelism 
+    - iotop 
+    - file
