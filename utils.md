@@ -22,3 +22,4 @@
     - parallelism 
     - iotop 
     - file
+    - tee
