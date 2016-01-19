@@ -23,3 +23,4 @@
     - iotop 
     - file
     - tee
+    - script
