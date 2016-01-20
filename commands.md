@@ -16,3 +16,5 @@
 
 - Changing every space to underscore recursively in file names
     `find $1 -depth -name "* *" -execdir rename 's/ /_/g' "{}" \;`
+
+- If you don't want a command to show up in history, put a space before the command.

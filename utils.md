@@ -25,4 +25,52 @@
     - tee
     - script
     - parallel
+    - watch
     - seq
+    - xargs
+    - pwd
+    - basename
+    - dirname
+    - wget
+    - curl
+    - free
+    - cat
+    - whatis
+    - which
+    - whereis
+    - locate
+    - less
+    - more
+    - units
+    - ascii
+    - mtr
+    - cal
+    - tac
+    - factor
+    - yes
+    - nl
+    - expand
+    - dos2unix
+    - whoami
+    - diff
+    - file
+    - sort
+    - uniq
+    - shuf
+    - last
+    - tree
+    - stat
+    - expr
+    - pv
+    - look
+    - at
+    - convert
+    - lsb_release
+    - uname
+    - pdfunite
+    - base64
+    - tr
+    - aprops
+    - truncate
+    - scp
+    - rsync
