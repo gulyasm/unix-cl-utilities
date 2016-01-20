@@ -24,3 +24,5 @@
     - file
     - tee
     - script
+    - parallel
+    - seq
