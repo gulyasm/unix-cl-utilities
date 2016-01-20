@@ -4,7 +4,7 @@
 ## Navigation
 *File and command line navigation*
 
-* [jump](http://jeroenjanssens.com/2013/08/16/quickly-navigate-your-filesystem-from-the-command-line.html) Directory hotlist, you can easily jump from folder to anoter.
+* [jump](http://jeroenjanssens.com/2013/08/16/quickly-navigate-your-filesystem-from-the-command-line.html) Directory hotlist, you can easily jump from folder to another.
 * [autojump](https://github.com/joelthelion/autojump) The utility that learns your most used directories, and jumps there for you.
 * [fasd](https://github.com/clvv/fasd) Jump to your favourite directories. It learns like autojump.
 
