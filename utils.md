@@ -1,4 +1,5 @@
 # Utilities you should know
+<<<<<<< Updated upstream
 ## find
 ```bash
 find . -iname .git -type d -exec dirname {} \;
@@ -115,85 +116,7 @@ Strips the last component from a path.
 ```bash
 free -h
 ```
-## cat
-
-## whatis
-
-## which
-
-## whereis
-
-## locate
-
-## less
-
-## more
-
-## units
-
-## ascii
-
-## mtr
-
-## cal
-
-## tac
-
-## factor
-
-## yes
-
-## nl
-
-## expand
-
-## dos2unix
-
-## whoami
-
-## diff
-
-## file
-
-## sort
-
-## uniq
-
-## shuf
-
-## last
-
-## tree
-
-## stat
-
-## expr
-
-## pv
-
-## look
-
-## at
-
-## convert
-
-## lsb_release
-
-## uname
-
-## pdfunite
-
-## base64
-
-## tr
-
-## apropos
-```bash
-apropos -a docker run
-```
-
-## truncate
-
-## scp
-
-## rsync
+# true
+# false
+# md5sum
+# numfmt
