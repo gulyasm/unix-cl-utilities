@@ -85,7 +85,15 @@ seq 100 | curl --silent index.hu > /dev/null
 
 ## iotop
 
+## uuidgen
+```bash
+uuidgen -r
+```
+
 ## file
+```bash
+uuidgen > testfile && file testfile
+```
 
 ## tee
 
@@ -110,76 +118,137 @@ Strips the last component from a path.
 ## wget
 
 ## curl
+```bash
+curl -I http://cnn.com
+```
 
 ## free
 ```bash
 free -h
 ```
+
 ## cat
+```bash
+cat -E ~/.vimrc
+```
 
 ## whatis
+```bash
+whatis tac
+```
 
 ## which
+```bash
+which go
+```
 
 ## whereis
-
-## locate
+```bash
+whereis pip
+```
 
 ## less
+less is more than more
 
 ## more
+more is less than less
 
 ## units
+```bash
+units "2.3 pounds" kg
+```
+```bash
+function lbs { units "$1 lbs" kg; }
+```
 
 ## ascii
 
 ## mtr
 
 ## cal
+```bash
+ncal -n3
+```
 
 ## tac
+Print file in reverse order.
 
 ## factor
 
 ## yes
+```bash
+yes yes | head -100 | slack --topic=offtopic
+```
 
 ## nl
+```bash
+shuf -n 10 /usr/share/dict/words | nl
+```
 
 ## expand
 
 ## dos2unix
+Ever received file from a Windows user. dos2unix converts files from and to UNIX format.
+```bash
+dos2unix *
+```
 
 ## whoami
+```bash
+less  /home/`whoami`/.vimrc
+```
 
 ## diff
-
-## file
 
 ## sort
 
 ## uniq
 
 ## shuf
+Random sample from file.
 
 ## last
+```bash
+last -5 -i
+```
 
 ## tree
 
 ## stat
-
+```bash
+stat -f .vimrc -c %s*%a | bc | numfmt --to iec
+```
+```bash
+stat .vimrc -c %U
+```
+```bash
+stat -c %X .vimrc
+```
 ## expr
 
 ## pv
 
 ## look
+To find a word in the dictionary, use look:
 
 ## at
 
 ## convert
 
 ## lsb_release
-
+```bash
+lsb_release -is
+```
+```bash
+lsb_release -ss
+```
 ## uname
+```bash
+uname -m
+```
+```bash
+uname -o
+```
 
 ## pdfunite
 
