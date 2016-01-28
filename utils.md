@@ -125,3 +125,14 @@ free -h
 ```bash
 realpath ../
 ```
+
+# expand
+Converts tabs to spaces.
+
+# unexpand
+Converts spaces to tabs.
+
+# fmt
+```bash
+fmt -w 50 mytext
+```
