@@ -121,3 +121,7 @@ free -h
 # md5sum
 # numfmt
 # split
+# realpath
+```bash
+realpath ../
+```
