@@ -76,8 +76,6 @@ dig google.com +stat
 seq 20
 ```
 
-## xargs
-
 ## parallel
 ```bash
 seq 100 | curl --silent index.hu > /dev/null
@@ -126,7 +124,6 @@ curl -I http://cnn.com
 ```bash
 free -h
 ```
-
 ## cat
 ```bash
 cat -E ~/.vimrc
@@ -242,10 +239,8 @@ lsb_release -is
 ```bash
 lsb_release -ss
 ```
+
 ## uname
-```bash
-uname -m
-```
 ```bash
 uname -o
 ```
@@ -257,12 +252,24 @@ uname -o
 ## tr
 
 ## apropos
+# true
+# false
+# md5sum
+# numfmt
+# split
+
+# realpath
 ```bash
-apropos -a docker run
+realpath ../
 ```
 
-## truncate
+# expand
+Converts tabs to spaces.
 
-## scp
+# unexpand
+Converts spaces to tabs.
 
-## rsync
+# fmt
+```bash
+fmt -w 50 mytext
+```
