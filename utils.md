@@ -286,24 +286,30 @@ uname -o
 ## tr
 
 ## apropos
-# true
-# false
-# md5sum
-# numfmt
-# split
+## true
+## false
+## md5sum
+## numfmt
+## split
 
-# realpath
+## realpath
 ```bash
 realpath ../
 ```
 
-# expand
+## expand
 Converts tabs to spaces.
 
-# unexpand
+## unexpand
 Converts spaces to tabs.
 
-# fmt
+## fmt
 ```bash
 fmt -w 50 mytext
+```
+
+## paste
+Merge lines
+```bash
+seq 20 | paste -sd+ | bc
 ```
