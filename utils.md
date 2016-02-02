@@ -1,19 +1,34 @@
 # Utilities you should know
+
 ## find
+Find files with filters. Use exec to execute commands on the the results.
 ```bash
 find . -iname .git -type d -exec dirname {} \;
 ```
+
 ## locate
+Find files using a DB. Very fast, but can't restrict queries like with `find`.
 ```bash
-locate *.tar.gz
+locate *.tar.gz | grep Downloads
 ```
+
 ## grep
+Very powerful search text.
 ```bash
 grep -A 5 -r "ERROR" *
 ```
+
 ## top
+Minimalistic resource, process monitoring.
+```bash
+ top
+```
 
 ## htop
+Pumped version of top.
+```bash
+htop
+```
 
 ## mktemp
 ```bash
@@ -23,6 +38,7 @@ Temporary directory
 ```bash
 mktemp -d
 ```
+
 ## mkdir
 ```bash
 mkdir -p photos/{2005..2016}/{1..12}
@@ -32,26 +48,36 @@ mkdir -p photos/{2005..2016}/{1..12}
 ```bash
 ps l | grep `fuser /tmp`
 ```
+
 ## sed
 
+
 ## df
+Disk free utility.
 ```bash
 df -h
 ```
+
 ## du
+Disk usage utility
 ```bash
 du -sh ~/* 2> /dev/null | sort -hr | head -20
 ```
+
 ## pgrep
+Process grep.
 ```bash
 pgrep chrome
 ```
 ## ps
 
 ## netstat
+Network monitoring tool.
+To check listening ports, use the following.
 ```bash
 sudo netstat -tulnp
 ```
+
 ## lsof
 
 ## tcpdump
@@ -66,19 +92,27 @@ tailf /var/log/mysql.log
 ```
 
 ## dig
+DNS utility. You can query DNS services with `dig`.
 ```bash
 dig google.com +short A
 dig google.com +stat
 ```
 
 ## seq
+Generate numbers. Useful in pipelines, generating atttributes.
 ```bash
 seq 20
 ```
 
 ## parallel
+Run commands parallel. Great alternative in many cases for xargs, but you can run any command with parallel.
 ```bash
-seq 100 | curl --silent index.hu > /dev/null
+time seq 100 | curl --silent index.hu > /dev/null
+time seq 100 | parallel -n0 curl --silent index.hu > /dev/null
+```
+To compress many files parallel:
+```bash
+parallel gunzip ::: *
 ```
 
 ## iotop
