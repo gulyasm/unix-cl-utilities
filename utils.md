@@ -13,7 +13,7 @@ locate *.tar.gz | grep Downloads
 ```
 
 ## grep
-Very powerful search text.
+Very powerful text search.
 ```bash
 grep -A 5 -r "ERROR" *
 ```
@@ -261,10 +261,19 @@ stat -c %X .vimrc
 
 ## look
 To find a word in the dictionary, use look:
+```bash
+look concat
+```
 
 ## at
+Run command at a specified time.
 
 ## convert
+Use ImageMagick to convert images. Very powerful image conversion too.
+```bash
+parallel convert {} {.}.png ::: *.svg
+```
+
 
 ## lsb_release
 ```bash
@@ -280,17 +289,34 @@ uname -o
 ```
 
 ## pdfunite
+Concatenate PDF files!
 
 ## base64
 
 ## tr
+Translate characters. You can delete characters or define a mapping.
 
 ## apropos
+
 ## true
+Always true.
+
 ## false
+Always false.
+
 ## md5sum
+MD5 checksum of files. Useful for determining fast if two files are the same.
+```bash
+md5sum *
+```
+
 ## numfmt
+
 ## split
+Split files into chunks. You can define number of lines, chunks or size for splitting.
+```bash
+split -b 1G hugefile
+```
 
 ## realpath
 ```bash
@@ -304,6 +330,7 @@ Converts tabs to spaces.
 Converts spaces to tabs.
 
 ## fmt
+Format text width. `fmt` can format text into paragraph based on width.
 ```bash
 fmt -w 50 mytext
 ```
