@@ -204,6 +204,9 @@ ncal -n3
 ## tac
 Print file in reverse order.
 
+## rev
+Reverse the lines.
+
 ## factor
 
 ## yes
