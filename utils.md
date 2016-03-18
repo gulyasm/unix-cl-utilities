@@ -44,6 +44,11 @@ mktemp -d
 mkdir -p photos/{2005..2016}/{1..12}
 ```
 
+## dstat
+```bash
+dstat -n
+```
+
 ## fuser
 ```bash
 ps l | grep `fuser /tmp`
